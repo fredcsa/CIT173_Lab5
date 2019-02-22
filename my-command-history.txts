@@ -1,0 +1,81 @@
+    1  mkdir /CIT173_Lab5
+    2  mkdir CIT173_Lab5
+    3  ls
+    4  man mount
+    5  mount
+    6  q
+    7  exit
+    8  dev
+    9  /dev
+   10  cd /dev
+   11  ls
+   12  cd 
+   13  cd /dev/sdb
+   14  man gdisk
+   15  sudo gdisk l
+   16  cd/dev
+   17  cd /dev
+   18  dir
+   19  cd
+   20  ls /dev/sd*
+   21  man gdisk
+   22  sudo gdisk /dev/sdb
+   23  sudo mkfs.ext4 /dev/sdb1
+   24  sudo mkfs.ext4 /dev/sdb2
+   25  sudo mkdir /mnt/data
+   26  sudo mkdir /mnt/backup
+   27  mount
+   28  sudo mount /dev/sdb1 /mnt/data
+   29  sudo mount /dev/sdb2 /mnt/backup
+   30  ls
+   31  df
+   32  sudo unmount /dev/sdb1 /dev/sdb2
+   33  sudo umount /dev/sdb1 /dev/sdb2
+   34  nano
+   35  vim
+   36  viviq
+   37  vi /etc/fstab
+   38  ls
+   39  vi /etc/fstab
+   40  ls
+   41  cd /dev
+   42  ls
+   43  cd
+   44  nano /etc/fstab
+   45  sudo nano /etc/fstab
+   46  sudo
+   47  sudo -u
+   48  ls
+   49  sudo nano /etc/fstab
+   50  reboot
+   51  cat /etc/fstab
+   52  mount > /CIT173_Lab5/my-mounts.txt
+   53  mount > ~/CIT173_Lab5/my-mounts.txt
+   54  cp /etc/fstab ~/CIT173_Lab5/my-fstab.txt
+   55  ls ~/CIT173_Lab5/
+   56  history
+   57  history > ~/CIT173_Lab5/my-command-history.txt
+   58  cd ~/CIT173_Lab5
+   59  ls
+   60  git init
+   61  git remote add origin https://github.com/fredcsa/CIT173_Lab5.git
+   62  git add --all
+   63  git commit -m 
+   64  git commit "Lab assignment 5"
+   65  git push origin master
+   66  sudo dd if/dev/random of= /mnt/dat/data_file.dat bs=1 count1k
+   67  sudo dd if=/dev/random of= /mnt/dat/data_file.dat bs=1 count1k
+   68  sudo dd if=/dev/random of=/mnt/dat/data_file.dat bs=1 count1k
+   69  sudo dd if=/dev/random of=/mnt/dat/data_file.dat bs=1 count=1k
+   70  sudo dd if=/dev/random of=/mnt/dat/data_file1.dat bs=1 count=1k
+   71  sudo dd if=/dev/random of=/mnt/data/data_file1.dat bs=1 count=1k
+   72  sudo dd if=/dev/random of=/mnt/data/data_file2.dat bs=1 count=1k
+   73  sudo dd if=/dev/random of=/mnt/backup/backup_file2.dat bs=1 count=1k
+   74  sudo dd if=/dev/random of=/mnt/backup/backup_file1.dat bs=1 count=1k
+   75  cp /mnt/data/datafile* ~/CIT173_Lab5/
+   76  cp /mnt/data/datafile* ~/CIT173_Lab5
+   77  cp mnt/data/datafile* ~/CIT173_Lab5
+   78  cp /mnt/data/datafile* ~/CIT173_Lab5
+   79  cat /etc/fstab
+   80  history
+   81  history > ~/CIT173_Lab5/my-command-history.txts

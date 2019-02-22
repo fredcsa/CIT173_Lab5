@@ -1,0 +1,57 @@
+    1  mkdir /CIT173_Lab5
+    2  mkdir CIT173_Lab5
+    3  ls
+    4  man mount
+    5  mount
+    6  q
+    7  exit
+    8  dev
+    9  /dev
+   10  cd /dev
+   11  ls
+   12  cd 
+   13  cd /dev/sdb
+   14  man gdisk
+   15  sudo gdisk l
+   16  cd/dev
+   17  cd /dev
+   18  dir
+   19  cd
+   20  ls /dev/sd*
+   21  man gdisk
+   22  sudo gdisk /dev/sdb
+   23  sudo mkfs.ext4 /dev/sdb1
+   24  sudo mkfs.ext4 /dev/sdb2
+   25  sudo mkdir /mnt/data
+   26  sudo mkdir /mnt/backup
+   27  mount
+   28  sudo mount /dev/sdb1 /mnt/data
+   29  sudo mount /dev/sdb2 /mnt/backup
+   30  ls
+   31  df
+   32  sudo unmount /dev/sdb1 /dev/sdb2
+   33  sudo umount /dev/sdb1 /dev/sdb2
+   34  nano
+   35  vim
+   36  viviq
+   37  vi /etc/fstab
+   38  ls
+   39  vi /etc/fstab
+   40  ls
+   41  cd /dev
+   42  ls
+   43  cd
+   44  nano /etc/fstab
+   45  sudo nano /etc/fstab
+   46  sudo
+   47  sudo -u
+   48  ls
+   49  sudo nano /etc/fstab
+   50  reboot
+   51  cat /etc/fstab
+   52  mount > /CIT173_Lab5/my-mounts.txt
+   53  mount > ~/CIT173_Lab5/my-mounts.txt
+   54  cp /etc/fstab ~/CIT173_Lab5/my-fstab.txt
+   55  ls ~/CIT173_Lab5/
+   56  history
+   57  history > ~/CIT173_Lab5/my-command-history.txt
